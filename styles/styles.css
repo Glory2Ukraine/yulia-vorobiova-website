@@ -85,12 +85,6 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.project-link {
-  display: block;
-  text-align: center;
-  margin: 0 20px;
-}
-
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -109,5 +103,11 @@ p {
   p {
     font-size: 16px;
     text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
